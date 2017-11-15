@@ -41,6 +41,4 @@ Sensor의 유무나, EventEmitter, delegator, getter 등으로 단계를 축약�
 Tick은 이전 Behavior에서 시작된다. 
 최초는 Root Node에서 첫번째 노드로 지정하는 IDLE Node의 Sensor에 의해 아무런 이벤트가 없는 IDLE Behavior이다.
 
-Tick
-- IDLE
-- IDLE Something
+# Designing BehaviorTree
