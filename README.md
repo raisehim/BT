@@ -1,5 +1,4 @@
-# BT 블라블라
-
+# BT
 "BehaviorTree for nodejs"
 MMO를 구현하던, Single Adventure Leveling을 구현하던, 
 게임에서 중요한 요소는 NPC의 특성 정의라 생각한다.
