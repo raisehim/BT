@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch",
+            "protocol": "inspector",
+            "type": "node",
+            "request": "launch",
+            "stopOnEntry": false,
+            "console": "integratedTerminal", // vscode에서 process.stdout.write 출력을 지원할때까지 integratedTerminal 사용으로 대체..
+            "program": "${workspaceFolder}/kokomo.request.broker.js",
+            "args": [
+                "LOCAL"
+            ],
+            "runtimeArgs": [
+                "--nolazy",
+                "--trace-warnings"
+            ],
+            "env": {
+                "NODE_ENV": "production"
+            },
+            "skipFiles": [
+                "<node_internals>/**/*.js",
+                "node_modules/**/*.js"
+            ]
+        }
+    ]
+}

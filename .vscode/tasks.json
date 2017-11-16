@@ -1,0 +1,47 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "grunt",
+            "task": "0.dist.dev",
+            "label": "0. Dist DEV (git pull master)",
+            "problemMatcher": []
+        },
+        {
+            "type": "grunt",
+            "task": "1.dist.live-qa",
+            "label": "1. Dist LIVE-QA (rsync DEV => AWS NODE-M)",
+            "problemMatcher": []
+        },
+        {
+            "type": "grunt",
+            "task": "2.dist-live-all",
+            "label": "2. Dist LIVE-ALL (rsync AWS NODE-M => NODE-C)",
+            "problemMatcher": []
+        },
+        {
+            "type": "grunt",
+            "task": "3.generate.PDU",
+            "label": "3. generate PDU",
+            "problemMatcher": []
+        },
+        {
+            "type": "grunt",
+            "task": "4.makeCPP/h",
+            "label": "4. make CPP/h",
+            "problemMatcher": []
+        },
+        {
+            "type": "grunt",
+            "task": "5.import.excels",
+            "label": "5. import excels",
+            "problemMatcher": []
+        },
+        {
+            "type": "grunt",
+            "task": "0.dist.dev",
+            "label": "0. Dist DEV (git pull master)",
+            "problemMatcher": []
+        }
+    ]
+}
