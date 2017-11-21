@@ -16,5 +16,3 @@ let BT = module.exports = testBT()
 
 BT.Node = Node;
 BT.Sensor = Sensor;
-
-console.log("TEST BT");
