@@ -3,6 +3,8 @@
 const Node = require('./node');
 const Sensor = require('./sensor');
 
+console.log("ID_RSA");
+
 const startBT = async () => {
 };
 
